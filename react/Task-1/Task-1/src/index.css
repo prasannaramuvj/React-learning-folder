@@ -1,0 +1,114 @@
+.nav-link{
+  color:white;
+}
+.nav-link.active{
+  color: yellow;
+}
+.home-container{
+  background-image: url('./assets/hero-bg.jpg');
+  padding-top: 70px;
+  padding-left: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: auto;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+ 
+}
+.card-1{
+  width:380px;
+  height:430px;
+
+}
+
+.card-1 img{
+  width:300px;
+  height:200px;
+  padding: 30px;
+   transition: transform 0.3s ease;
+}
+
+.card-1 {
+  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  color: white;
+}
+
+.card-body p{
+  color: #f1f2f3;
+}
+.shop-icon{
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.card{
+  border: none;
+}
+
+
+.cards-img{
+  border-bottom-left-radius: 50px;
+  background-color: #d2d5d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+
+}
+
+.card-1 img:hover{
+  transform: scale(1.1);
+}
+
+.icon{
+  background-color: #b8c341;   
+  color: white;               
+  padding: 10px;              
+  border-radius: 50%;                 
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 20px;
+  padding: 20px;
+}
+.list-btn{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.btn-active{
+  background-color: rgb(26, 197, 26);
+
+}
+  footer {
+  width: 100%;
+  background-color: #222831;
+  position: relative;
+  left: 0;
+  margin-top: 0;
+  color: #f1f2f3;
+  height: 500px;
+  font-size: 20px;
+}
+
+
+.menu-wrapper{
+  width: 100%;
+  margin-top: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img-box img{
+  width: 100%;
+  max-width: 445px;
+  position: relative;
+  z-index: 2;
+
+}

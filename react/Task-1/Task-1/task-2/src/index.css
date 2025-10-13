@@ -1,0 +1,18 @@
+.form1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  height:400px;
+  background-color: antiquewhite;
+  /* flex-wrap:wrap */
+}
+
+.form1 input{
+  margin: 6px;
+}
+*{
+  /* background-color:bisque; */
+}
